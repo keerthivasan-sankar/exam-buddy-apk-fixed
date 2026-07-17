@@ -1,0 +1,59 @@
+{
+  "collections": [
+    {
+      "name": "users",
+      "description": "User profiles",
+      "fields": {
+        "name": "string",
+        "mobile": "string",
+        "gender": "string",
+        "homeCity": "string",
+        "avatar": "string",
+        "verified": "boolean",
+        "preferredTransport": "string",
+        "preferredLanguage": "string"
+      }
+    },
+    {
+      "name": "exams",
+      "description": "Exams added by users",
+      "fields": {
+        "userId": "string",
+        "examName": "string",
+        "examDate": "string",
+        "examCity": "string",
+        "examCenter": "string"
+      }
+    },
+    {
+      "name": "chats",
+      "description": "Chat sessions between users",
+      "fields": {
+        "participants": "array of strings (user IDs)",
+        "lastMessage": "string",
+        "timestamp": "number",
+        "unreadCount": "map of userId to number"
+      }
+    },
+    {
+      "name": "messages",
+      "description": "Messages within a chat",
+      "fields": {
+        "chatId": "string",
+        "userId": "string",
+        "userName": "string",
+        "message": "string",
+        "timestamp": "number"
+      }
+    },
+    {
+      "name": "blocks",
+      "description": "User blocking relationships",
+      "fields": {
+        "blockerId": "string",
+        "blockedId": "string",
+        "timestamp": "number"
+      }
+    }
+  ]
+}

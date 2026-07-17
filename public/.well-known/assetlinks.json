@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.exambuddyfixed.app",
+      "sha256_cert_fingerprints": [
+        "62:C9:D4:CB:25:0E:C8:DC:F8:63:F0:49:83:BB:F8:AE:F1:2D:2C:D1:9E:1C:7E:FF:FF:ED:A9:4C:70:7C:B6:32"
+      ]
+    }
+  }
+]

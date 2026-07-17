@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "666199379886",
+    "project_id": "exam-buddy-fixed",
+    "storage_bucket": "exam-buddy-fixed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666199379886:android:4adb6cb0fb965458bcc23f",
+        "android_client_info": {
+          "package_name": "com.exambuddyfixed.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666199379886-e1s2o9t0jfp131g6qmhebkcg4gifvhbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exambuddyfixed.app",
+            "certificate_hash": "cea330a592dc28392fd194c1a71861a00120adf8"
+          }
+        },
+        {
+          "client_id": "666199379886-a8k0bbpe46qdk27vp6ci38v0bardi7nk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGYYD9Q2G0jjZmoLGw2mwTVGRts5VewwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666199379886-a8k0bbpe46qdk27vp6ci38v0bardi7nk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

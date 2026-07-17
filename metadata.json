@@ -1,0 +1,8 @@
+{
+  "name": "ExamBuddy",
+  "description": "Student travel coordination platform for exam centers. Connects students traveling to common exam centers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
