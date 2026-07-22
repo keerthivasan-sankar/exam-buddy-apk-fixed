@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "666199379886-r8ol2huoj1ro4u3p2e2hd6sfl6o5cii9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exambuddyfixed.app",
+            "certificate_hash": "1cd543ccc8644575be78bbef879aadc0b539ac35"
+          }
+        },
+        {
           "client_id": "666199379886-a8k0bbpe46qdk27vp6ci38v0bardi7nk.apps.googleusercontent.com",
           "client_type": 3
         }
