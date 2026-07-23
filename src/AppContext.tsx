@@ -129,6 +129,10 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
               setUser({ id: firebaseUser.uid, ...defaultUser } as User);
             });
           }
+          setLoading(false);
+        }, (error) => {
+          console.error('Error loading user profile', error);
+          setLoading(false);
         });
 
         // Set online status
@@ -168,8 +172,6 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
           });
           setBlockedByOthers(ids);
         });
-        
-        setLoading(false);
       } else {
         setUser(null);
         setExams([]);
